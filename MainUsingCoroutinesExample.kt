@@ -9,6 +9,7 @@ fun main() = runBlocking {
         println("Before")
         arr.forEach {
             print("${it} ")
+            delay(300)
         }
 
         for (i in 0..arr.size){
@@ -25,6 +26,7 @@ fun main() = runBlocking {
         println("After")
         arr.forEach {
             print("${it} ")
+            delay(1000)
         }
     }
 
